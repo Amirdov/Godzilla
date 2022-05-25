@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Godzilla | Get to know the Apex Predator</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/logo.png"
+          alt="Godzilla logo"
+          class="nav__logo"
+          id="logo"
+          designer="Amir"
+          data-version-number="3.0"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#section--1">Story</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--2">Opponents</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#section--3">Reviews</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link nav__link--btn btn--show-modal" href="#"
+              >Download</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__title">
+        <!-- <h1 onclick="alert('HTML alert')"> -->
+        <h1>
+          A
+          <!-- Red highlight effect -->
+          <span class="highlight"> <span class="blacktext">monster</span></span>
+          long<br />
+          <span class="highlight"></span>
+          before us
+        </h1>
+        <span class="whitetext">
+          <h4>and one that will stay <br />long after us.</h4>
+        </span>
+        <button class="btn--text btn--scroll-to">
+          <span class="subscribetext">Learn more &DownArrow;</span>
+        </button>
+        <img
+          src="img/movies.png"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section__title">
+        <h2 class="section__description">
+          <span class="subscribetext">Story</span>
+        </h2>
+        <h3 class="section__header">
+          Everything you need to know about the Apex Predator:
+        </h3>
+      </div>
+
+      <div class="features">
+        <img
+          src="img/cave-lazy.png"
+          data-src="img/cave.png"
+          alt="Computer"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/troglodyte-svgrepo-com.svg#Capa_1"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Ancient cave paintings</h5>
+          <p>
+            There were numerous 200'000'000 Years old cave paintings found
+            across the globe, indicating a previous co-existence of Godzilla and
+            Humans. They often portrayed clashes with different titans. There's
+            even one painting showing ancient civilizations praying to Godzilla,
+            seeing a God in him.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/bomb-svgrepo-com.svg#Layer_1"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Hiroshima, 1945</h5>
+          <p>
+            After hibernating for hundreds of millions of years, the nuclear
+            bomb dropped on Hiroshima at the end of WWII is what made Godzilla
+            wake up again. As the humans started to notice his presence, they
+            tried to kill him with nuclear bombs. These attempts to kill him
+            were covered up with the explanation that it was "just" bomb
+            testing. All that, while not knowing that Godzilla actually feeds
+            off radiation.
+          </p>
+        </div>
+        <img
+          src="img/hiroshima-lazy.png"
+          data-src="img/hiroshima.png"
+          alt="Hiroshima"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/battles-lazy.png"
+          data-src="img/battles.png"
+          alt="Battles"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <div class="features__icon">
+            <svg>
+              <use xlink:href="img/swords-war-svgrepo-com.svg#Layer_1"></use>
+            </svg>
+          </div>
+          <h5 class="features__header">Present Battles</h5>
+          <p>
+            In the modern day, Godzilla is battling off many titans that have
+            awakaned alongside with him. Starting in the Year 2014, he faced off
+            against MUTOs (Top left), 2019 he faced off against the three-headed
+            dragon Ghidorah (Bottom middle) and most recently, in 2021 (film
+            took place in 2024) he faced off against the mighty Kong (Top
+            right).
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--2">
+      <div class="section__title">
+        <h2 class="section__description">Opponents</h2>
+        <h3 class="section__header">
+          There are many mighty titans. But only one can rule all of them.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="btn operations__tab operations__tab--1 operations__tab--active"
+            data-tab="1"
+          >
+            King Ghidorah
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            Kong
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            Mechagodzilla
+          </button>
+        </div>
+        <div
+          class="operations__content operations__content--1 operations__content--active"
+        >
+          <div class="operations__icon operations__icon--1">
+            <svg>
+              <use xlink:href="img/dragon-svgrepo-com.svg#Dragon_1"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            He was never supposed to be on planet earth. A false king.
+          </h5>
+          <p>
+            King Ghidorah is a three-headed dragon with alien origin. He fell on
+            planet earth hundreds of millions of years ago, civilizations back
+            then mistaking him for a meteorite. Due to him not being from
+            earth-nature he reacts differently to certain environmental changes.
+            While you mostly see him in the air with his gigantic wings, he is
+            actually taller than Godzilla when he properly stands up for once.
+          </p>
+          <img
+            src="img/ghidorah-lazy.png"
+            data-src="img/ghidorah.png"
+            alt="Ghidorah"
+            class="operations__img lazy-img"
+          />
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <div class="operations__icon operations__icon--2">
+            <svg>
+              <use xlink:href="img/gorilla-svgrepo-com.svg#Gorilla_1"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            A fearless fighter, knows nothing but being King.
+          </h5>
+          <p>
+            Kong is a 100m tall gorilla. Having absolutely no fear and respect
+            for anyone, it makes him a force to be reckoned with. In fights, he
+            has the same advantage as humans. He can use weapons. While all
+            other titans primarly only fight with their body, Kong is capable of
+            ripping out a massive tree and fight with it in one hand.
+          </p>
+          <img
+            src="img/kong-lazy.png"
+            data-src="img/kong.png"
+            alt="Kong"
+            class="operations__img lazy-img"
+          />
+        </div>
+        <div class="operations__content operations__content--3">
+          <div class="operations__icon operations__icon--3">
+            <svg>
+              <use xlink:href="img/robot-svgrepo-com.svg#Robot_1"></use>
+            </svg>
+          </div>
+          <h5 class="operations__header">
+            The human-made titan. Not equal, but superior.
+          </h5>
+          <p>
+            Mechagodzilla is fully made out of the strongest steel and metal,
+            making him unable to experience any pain at all. It's fully equipped
+            with gigantic weapons, capable of dealing unbelievable damage or
+            adding force to his punches. Apex Cybernetics, the creators of
+            Mechagodzilla have also made an expiditon to the hollow earth,
+            gathering the source of titan-power. This made Mechagodzilla capable
+            of firing an extremely powerful beam of his mouth (red), similar to
+            Godzilla's atomic breath (blue).
+          </p>
+          <img
+            src="img/Mechagodzilla-lazy.png"
+            data-src="img/Mechagodzilla.png"
+            alt="Mechagodzilla"
+            class="operations__img lazy-img"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="section--3">
+      <div class="section__title section__title--testimonials">
+        <h2 class="section__description">Reviews</h2>
+        <h3 class="section__header">
+          Read the IGN reviews about all three Godzilla movies.
+        </h3>
+      </div>
+
+      <div class="slider">
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Amazing!</h5>
+            <blockquote class="testimonial__text">
+              Legendary Pictures' Godzilla origin story carries the weight of
+              unwieldy expectations, but rather than buckle, it is ultimately a
+              fantastic - though imperfect - example of the genre. Gareth
+              Edwards both depicts what is beloved about this magnificent
+              creature and creates a film that is distinctly its own entity, one
+              that brings Godzilla to gorgeous new life. The Easter Eggs and
+              nods to previous versions and additional suitmation favorites will
+              likely be appreciated by sharp-eyed aficionados.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/IGN.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">IGN</h6>
+              <p class="testimonial__location">
+                Review about the movie "Godzilla" (2014)
+              </p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">
+              King of the Monsters is basically everything a Godzilla fan could
+              hope for… and more.
+            </h5>
+            <blockquote class="testimonial__text">
+              Godzilla: King of the Monsters is a fun exercise in giant monster
+              madness that indulges in all the kaiju fights fans and even casual
+              viewers could hope for. It looks amazing while also giving its
+              human characters a chance to stay interesting amid all the
+              battling beasties by providing them with some really cool tech --
+              and some great one-liners among the supporting players.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/IGN.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">IGN</h6>
+              <p class="testimonial__location">
+                Review about the movie "Godzilla: King of the Monsters" (2019)
+              </p>
+            </address>
+          </div>
+        </div>
+
+        <div class="slide">
+          <div class="testimonial">
+            <h5 class="testimonial__header">Good.</h5>
+            <blockquote class="testimonial__text">
+              Godzilla vs. Kong knows exactly what it wants to be, and invests
+              every minute of its two hours living up to that promise. Somewhat
+              understandably the humans are overshadowed by their enormous
+              co-stars, but it is a glorious love letter to these iconic
+              characters' collective histories, a satisfying culmination of the
+              arc leading up to it, and, hopefully, a jumping-off point for more
+              stories set in this universe. Let's hope it's not another
+              half-century before these two crazy kids get together again.
+            </blockquote>
+            <address class="testimonial__author">
+              <img src="img/IGN.jpg" alt="" class="testimonial__photo" />
+              <h6 class="testimonial__name">IGN</h6>
+              <p class="testimonial__location">
+                Review about the movie "Godzilla vs. Kong" (2021)
+              </p>
+            </address>
+          </div>
+        </div>
+
+        <button class="slider__btn slider__btn--left">&larr;</button>
+        <button class="slider__btn slider__btn--right">&rarr;</button>
+        <div class="dots"></div>
+      </div>
+    </section>
+
+    <section class="section section--sign-up">
+      <div class="section__title">
+        <h3 class="section__header">
+          There even is a funny little Godzilla game for you to download and
+          play!
+        </h3>
+      </div>
+      <button class="btn btn--show-modal">Download the game!</button>
+    </section>
+
+    <footer class="footer">
+      <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+      </ul>
+      <img src="img/icon.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">&copy; Copyright by Amir Mamedov</p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Download the game <br />
+        in just <span class="highlight">a couple clicks!</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
